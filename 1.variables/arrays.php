@@ -27,3 +27,13 @@ echo $people['Alexander'];
 $people['Jill'] = 43; //added another element
 echo '<br>';
 print_r($people); //printed whole array
+
+//multidimensional arrays - arrays with inner arrays
+
+$cars = [
+    ['honda', 20, 10],
+    ['toyota', 20, 10],
+    ['Ford', 40, 55],
+];
+echo '<br>';
+echo $cars[1][0]; // = toyota
