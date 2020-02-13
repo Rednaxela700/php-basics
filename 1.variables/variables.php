@@ -1,10 +1,18 @@
-<h1><?php
+<?php
+
 // single line comment
 // another single line comment
 /*
 multiline
 comments
 */
-echo 'Hello World';
-    ?>
-</h1>
+
+    //Variables
+    /*
+        - Prefix $
+        - start with a letter or an underscore
+        - only letters, or numbers
+        - case sensitive
+    */
+$output = 'Hello World';
+echo $output;
