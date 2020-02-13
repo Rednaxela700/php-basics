@@ -40,6 +40,7 @@ $string1 = '<br>hi';
 $string2 = 'there';
 $greeting = $string1.' '.$string2.'!';
 $greeting2 = "<br>{$string1} {$string2}"; //double quotes can parse strings, single don't
-
+$greeting3 = '<br>this\'s big'; //escape operator
 echo $greeting;
 echo $greeting2;
+echo $greeting3;
