@@ -19,3 +19,11 @@ echo '<br>';
 print_r($cars); //prints whole array as string
 echo '<br>';
 var_dump($cars); //prints whole array as string including data types
+
+// associative arrays
+$people = ['Alexander' => 27, 'John' => 77, 'Will' => 55]; //strings represents the keys
+echo '<br>';
+echo $people['Alexander'];
+$people['Jill'] = 43; //added another element
+echo '<br>';
+print_r($people); //printed whole array
