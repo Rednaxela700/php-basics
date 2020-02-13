@@ -16,3 +16,30 @@ comments
     */
 $output = 'Hello World';
 echo $output;
+
+// data types
+    /*
+        - String
+        - numbers - positive or negative
+        - Integers
+        - Floats
+        - booleans
+        - arrays
+        - objects
+        - NULL
+        - Resource
+
+        */
+$num1 = 4;
+$float = 4.4;
+$bool1 = true;
+
+// variables concatenation
+$sum = $num1 + $ {$float};
+$string1 = '<br>hi';
+$string2 = 'there';
+$greeting = $string1.' '.$string2.'!';
+$greeting2 = "<br>{$string1} {$string2}"; //double quotes can parse strings, single don't
+
+echo $greeting;
+echo $greeting2;
