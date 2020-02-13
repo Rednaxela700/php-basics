@@ -44,3 +44,7 @@ $greeting3 = '<br>this\'s big'; //escape operator
 echo $greeting;
 echo $greeting2;
 echo $greeting3;
+
+//constants never change, used to store names of databases etc
+define('GREETING', 'hello everyone', true);
+echo '<br>'.greeting;
