@@ -11,3 +11,10 @@ function simpleFn($name = 'World')
     echo 'Hello '.$name;
 }
 simpleFn('John');
+
+function addNumber($num1, $num2)
+{
+    return $num1 + $num2;
+}
+
+echo addNumber(2, 3);
