@@ -6,8 +6,8 @@
 // lowercase - my_fn()
 // pascal case - MyFunction()
 
-function simpleFn()
+function simpleFn($name)
 {
-    echo 'Hello World';
+    echo 'Hello '.$name;
 }
-simpleFn();
+simpleFn('John');
