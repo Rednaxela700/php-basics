@@ -29,9 +29,9 @@ while ($i < 10) {
 // @params - condition
 
 // foreach loop for arrays
-$people = ['brad', 'alex', 'will'];
+$people = ['brad' => 'brad@gmail.com', 'alex' => 'alex@asd.pl', 'will' => 'william@will.would'];
 
-foreach ($people as $person) {
-    echo $person;
+foreach ($people as $person => $email) {
+    echo $person.':'.$email;
     echo '<br>';
 }
