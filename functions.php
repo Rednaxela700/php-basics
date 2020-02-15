@@ -5,3 +5,9 @@
 //  camelCase - myFn()
 // lowercase - my_fn()
 // pascal case - MyFunction()
+
+function simpleFn()
+{
+    echo 'Hello World';
+}
+simpleFn();
