@@ -21,15 +21,18 @@ echo addNumber(2, 3);
 $myNum = 10;
 function addFive($num)
 {
-    $num += 5;
+    return $num += 5;
 }
 function addTen(&$num) //ampersand is a reference to variable
 {
     $num += 10;
 }
 
+echo "<br>mynum is defined as: $myNum<br>";
 addFive($myNum);
+echo "mynum with addFive fn is: ".addFive($myNum).'<br>';
 
+echo "mynum passed as reference to addTen() fn:";
 addTen($myNum);
-echo '<br>';
-echo "value is: {$myNum}<br>";
+// echo '<br>';
+echo " {$myNum}<br>";
