@@ -37,5 +37,5 @@ if($num === '5') {
 /*
  * and - &&
  * or - ||
- * xor - exclusive comparison - only if left or right is true
+ * xor - exclusive comparison - only if left or right is true, but not both
  */
