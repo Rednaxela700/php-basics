@@ -39,3 +39,22 @@ if($num === '5') {
  * or - ||
  * xor - exclusive comparison - only if left or right is true, but not both
  */
+
+//switches
+/*
+ *  test for a value with several conditions
+ */
+
+$favColor = "red";
+
+switch ($favColor){
+    case 'red':
+        echo 'your favourite color is red';
+        break;
+    case 'blue':
+        echo 'your favourite color is blue';
+        break;
+    default:
+        echo "your favourite color is different than red or blue";
+
+}
