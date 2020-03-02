@@ -31,3 +31,11 @@ if($num === '5') {
 } else {
     echo "num else log";
 }
+
+
+//logical operators:
+/*
+ * and - &&
+ * or - ||
+ * xor - exclusive comparison - only if left or right is true
+ */
