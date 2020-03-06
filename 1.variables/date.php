@@ -14,3 +14,4 @@ date_default_timezone_set('Europe/Warsaw');
 echo date('h'); //hours
 echo date('i'); //minutes
 echo date('s'); //seconds
+echo date('a'); //AM/PM
