@@ -15,3 +15,9 @@ echo date('h'); //hours
 echo date('i'); //minutes
 echo date('s'); //seconds
 echo date('a'); //AM/PM
+
+//make a timestamp in unix time
+
+$timestamp = mktime(10,14,54,01,02,1993);
+
+echo "<br>".$timestamp;
