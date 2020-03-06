@@ -20,4 +20,6 @@ echo date('a'); //AM/PM
 
 $timestamp = mktime(10,14,54,01,02,1993);
 
-echo "<br>".$timestamp;
+echo "<br>".$timestamp."<br>";
+
+echo date('m/d/Y', $timestamp); //date fn can take timestamp as second parameter
