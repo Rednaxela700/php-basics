@@ -32,5 +32,8 @@ echo "<br>" . $timestamp2 . "<br>";
 echo date('m/d/Y h:i:sa', $timestamp2);
 
 $timestamp3 = ('tomorrow');
+$timestamp3 = ('next Sunday');
+$timestamp3 = ('+2 Months');
+$timestamp3 = ('+2 Days');
 
 echo "<br>" . date('m/d/Y h:i:sa', $timestamp3) . "<br>";
