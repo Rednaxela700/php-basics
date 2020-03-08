@@ -16,9 +16,14 @@ $server = [
 
 echo $server['hostServerName'] . '<br>' . $server['hostServerPort'] . '<br>' . $server['hostHeader'] . '<br>' . $server['serverSoftware'];
 echo  '<br>'.$server['documentRoot'].'<br>'.$server['currentPage'].'<br>'.$server['scriptName'].'<br>'.$server['absolutePath'];
-//create server array
+//create client array
 $client = [
-    'Client System Info' => $_SERVER['HTTP_USER_AGENT']
+    'Client System Info' => $_SERVER['HTTP_USER_AGENT'],
+    'Client IP' => $_SERVER['REMOTE_ADDR'],
+    'Remote Port' => $_SERVER['REMOTE_PORT']
 ];
 
-echo '<br>'.$client['Client System Info'];
+echo '<p>'.'Client info from $_SERVER super global'."</p>";
+echo '<p>'.$client['Client System Info']."</p>";
+echo '<p>'.$client['Client IP']."</p>";
+echo '<p>'.$client['Remote Port']."</p>";
