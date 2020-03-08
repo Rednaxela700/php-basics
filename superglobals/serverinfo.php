@@ -14,8 +14,8 @@ $server = [
     'absolutePath' => $_SERVER['SCRIPT_FILENAME']
 ];
 
-echo $server['hostServerName'] . '<br>' . $server['hostServerPort'] . '<br>' . $server['hostHeader'] . '<br>' . $server['serverSoftware'];
-echo  '<br>'.$server['documentRoot'].'<br>'.$server['currentPage'].'<br>'.$server['scriptName'].'<br>'.$server['absolutePath'];
+//echo $server['hostServerName'] . '<br>' . $server['hostServerPort'] . '<br>' . $server['hostHeader'] . '<br>' . $server['serverSoftware'];
+//echo  '<br>'.$server['documentRoot'].'<br>'.$server['currentPage'].'<br>'.$server['scriptName'].'<br>'.$server['absolutePath'];
 //create client array
 $client = [
     'Client System Info' => $_SERVER['HTTP_USER_AGENT'],
@@ -23,7 +23,7 @@ $client = [
     'Remote Port' => $_SERVER['REMOTE_PORT']
 ];
 
-echo '<p>'.'Client info from $_SERVER super global'."</p>";
-echo '<p>'.$client['Client System Info']."</p>";
-echo '<p>'.$client['Client IP']."</p>";
-echo '<p>'.$client['Remote Port']."</p>";
+//echo '<p>'.'Client info from $_SERVER super global'."</p>";
+//echo '<p>'.$client['Client System Info']."</p>";
+//echo '<p>'.$client['Client IP']."</p>";
+//echo '<p>'.$client['Remote Port']."</p>";
