@@ -1,6 +1,6 @@
 <?php
 if(isset($_GET['name'])) {
-    echo htmlentities($_GET['name'].'<br>'.$_GET['email']);
+    echo htmlentities($_GET['name'].'<br>'.$_GET['email']); //html wont work when typed
 }
 ?>
 <!doctype html>
