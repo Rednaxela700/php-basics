@@ -1,6 +1,6 @@
 <?php
-if(isset($_GET['name'])) {
-    echo htmlentities($_GET['name'].'<br>'.$_GET['email']); //html wont work when typed
+if(isset($_POST['name'])) {
+    echo htmlentities($_POST['name'].'<br>'.$_POST['email']); //html wont work when typed
 }
 ?>
 <!doctype html>
@@ -16,7 +16,7 @@ if(isset($_GET['name'])) {
 <body>
 <div class="row">
     <div class="col-sm-6">
-    <form action="index.php" method="get" class="container">
+    <form action="index.php" method="post" class="container">
         <div class="input-group-prepend m-4">
             <label for="name" class="col-form-label px-2">Name</label><input type="text" name="name" class="input-group px-2">
         </div>
