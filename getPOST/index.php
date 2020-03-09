@@ -27,7 +27,15 @@ if (isset($_REQUEST['name'])) {
             </div>
             <button class="btn btn-primary d-block mx-auto">submit</button>
         </form>
+        <a href="index.php?name=Alexander" class="page-link">Alexander</a>
+        <a href="index.php?name=Roy" class="page-link">Roy</a>
     </div>
+    <?php
+    $username = $_GET["name"];
+    if (isset($username)) {
+        echo "<h1 class='h1'>This is $username profile</h1>";
+    }
+    ?>
 </div>
 
 </body>
